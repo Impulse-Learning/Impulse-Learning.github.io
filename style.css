@@ -1,34 +1,29 @@
-body{
-    background-color:#7FDBFF;
-    padding:0;
+*{
     margin:0;
-
+    padding:0;
 }
 
-.navbar{
+body{
+    background-color:#7FDBFF;
+}
+
+ul{
+    background-color: gray;
+    margin:0px;
+    padding: 0px;
     list-style-type: none;
-    margin:0;
-    padding:0;
     overflow: hidden;
-    background-color:#001f3f;
 }
 
 li{
-    float: left;
-    border-right: 1px solid white;
+    float:left;
 }
 
-li:hover{
-    background-color: #0074D9;
-}
 
-a{
-    display: block;
-    color:white;
-    text-decoration: none;
-    text-align: center;
-    padding: 14px;
-}
+
+
+
+
 
 
 

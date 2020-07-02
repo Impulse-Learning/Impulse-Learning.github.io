@@ -1,8 +1,14 @@
-body{
+*{
     margin:0px;
 }
 
+body{
+    margin:0px;
+    padding:10px;
+}
+
 div{
+    margin:20px;
+    padding:10px;
     background-color: blue;
-    
 }
