@@ -10,13 +10,18 @@ body{
 ul{
     background-color: gray;
     margin:0px;
-    padding: 0px;
+    padding: 10px;
     list-style-type: none;
     overflow: hidden;
 }
 
 li{
     float:left;
+}
+
+a{
+    color:white;
+    padding:12px;
 }
 
 
