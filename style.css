@@ -7,21 +7,22 @@ body{
     background-color:#7FDBFF;
 }
 
-ul{
+.navbar{ 
     background-color: gray;
     margin:0px;
-    padding: 10px;
     list-style-type: none;
     overflow: hidden;
 }
 
-li{
+.navbar li{
     float:left;
+    margin:10px;
 }
 
-a{
+.navbar a{
     color:white;
     padding:12px;
+    text-decoration:none;
 }
 
 
