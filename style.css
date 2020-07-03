@@ -51,9 +51,9 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.calendar{
+table{
   border: 1px;
-  border-color: red;
-  width: 1500;
-  height: 1200;
+  border-color:red;
+  width: 1400px;
+  height: 600px;
 }
