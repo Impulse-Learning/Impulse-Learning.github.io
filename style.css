@@ -110,16 +110,3 @@ body{
 
 .about-container button{
   background:gray
-
-table{
-  border: 1px;
-  border-color:red;
-  width: 1400px;
-  height: 700px;
-  table-layout: fixed;
-}
-
-td{
-  width: 15%;
-  height: 18%;
-}
