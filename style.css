@@ -14,14 +14,9 @@ body{
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 .navbar li{
     float:left;
     margin:10px;
-=======
-li{
-    float: left;
->>>>>>> d0fb08aa283f6e0e54c9aa67ee355b41200a08d2
 }
 
 .navbar a{
