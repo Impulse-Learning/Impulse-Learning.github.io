@@ -4,17 +4,26 @@
         <title> Impulse Learning Website</title>
         <link rel="stylesheet" href = "style.css">
     </head>
+<<<<<<< HEAD
     <body>
         <ul class = "navbar">
             <li><a href = "index.html"> Home </a></li>
             <li><a href = "calendar.html"> Calendar </a></li>
             <li><a href = "about.html"> About </a></li>
         </ul>
+=======
+<body>
+    <ul class = "navbar">
+        <li><a href = "index.html"> Home </a></li>
+        <li><a href = "calendar.html"> Calendar </a></li>
+        <li><a href = "about.html"> About </a></li>
+    </ul>
+>>>>>>> 16dda87e69f56317e8086f708cd693c21533c05b
         <h1> Impulse Learning Classes!</h1>
 
         <img src="img/dark_logo_transparent_background.png" width = "200">
         <div>
-            <ol style = "color:gold">
+            <ol style = "color:darkgoldenrod">
                 <li>Web Design</li>
                 <li>Python</li>
                 <li>Model UN</li>
@@ -60,24 +69,38 @@
             </tr>
         </table>
 
-        <div class = "class-descriptions">
-            <h3 style = "font-weight: 900; font-style:italic;"> Web Design Class</h3>
+        <div class = "row">
 
+            <div class= "column">
+              <div class="card">
+                <h3> Web Design Class</h3>
+                <img src= "img/webDesign.png" width="300">
+                <p> Learn how to design a website!</p>
+                <button> Join Now! </button>
+              </div>
 
-            <h4> (The best class) </h4>
-            <img src= "img/webDesign.png" width="300">
-            <p> Learn how to design a website!</p>
-            <button> Join Now! </button>
+            </div>
 
-            <h3> Python Programming</h3>
-            <img src= "img/python.png" width="300">
-            <p> Learn how to code in Python Language</p>
-            <button> Join Now! </button>
-
+            <div class= "column">
+              <div class="card">
+                <h3> Python Programming</h3>
+                <img src= "img/python.png" width="300">
+                <p> Learn how to code in Python Language</p>
+                <button> Join Now! </button>
+              </div>
+            </div>
+      </div>
+      <div class="row">
+          <div class= "column">
             <h3 class = "title"> Model United Nations</h3>
             <img src= "img/modelUN.png" width="300">
+          </div>
+          <div class="column">
             <p> Learn how to debate like a real UN delegate!</p>
             <button> Join Now! </button>
+          </div>
+      </div>
+
 
             <h3 class = "title"> Entrepreneurship </h3>
             <p> Learn how to create your own business!</p>
@@ -85,9 +108,10 @@
                 <button> Join Now! </button>
             </form>
 
+
             <p></p>
             <a href= "https://impulselearning.org/">Our Real Website</a>
-        </div>
+
 
     </body>
 </html>
