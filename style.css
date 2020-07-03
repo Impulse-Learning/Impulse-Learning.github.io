@@ -53,7 +53,6 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< HEAD
 /* about page */
 .about{
   background: white;
@@ -111,8 +110,8 @@ body{
 
 .about-container button{
   background:gray
-=======
-table{
+
+  table{
   border: 1px;
   border-color:red;
   width: 1400px;
@@ -123,5 +122,4 @@ table{
 td{
   width: 15%;
   height: 18%;
->>>>>>> cbaf51b5b67639e9352e734e854cda8500361223
 }
