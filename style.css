@@ -50,3 +50,62 @@ body{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* about page */
+.about{
+  background: white;
+  margin:0;
+  padding:0;
+}
+
+.about-head{
+  color: black;
+  margin: auto;
+  height: 400px;
+  text-align:center;
+  background-image: url("img/gradient.png");
+}
+
+.about-head-content{
+  position:absolute;
+  top:150px;
+  left:40%;
+}
+
+.about-head-content h1{
+  font-size: 60px;
+}
+
+.about-container{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  margin: 20px;
+  text-align:center;
+}
+
+.about-card{
+  background-color:#66CCFF;
+  height:300px;
+  border-radius:10px;
+  border:1px solid #0099CC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+.about-card-head{
+  height: 50%;
+}
+
+.about-card:nth-child(1) .about-card-head{
+
+}
+
+.about-card-head h3{
+  padding:20%;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.about-container button{
+  background:gray
+}
