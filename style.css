@@ -56,4 +56,9 @@ table{
   border-color:red;
   width: 1400px;
   height: 600px;
+  table-layout: fixed;
+}
+
+td{
+  width: 15%;
 }
