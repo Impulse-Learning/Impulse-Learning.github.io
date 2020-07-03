@@ -98,10 +98,6 @@ body{
   height: 50%;
 }
 
-.about-card:nth-child(1) .about-card-head{
-
-}
-
 .about-card-head h3{
   padding:20%;
   font-weight: 600;
@@ -110,3 +106,14 @@ body{
 
 .about-container button{
   background:gray
+}
+
+.calendar{
+  border-color: red;
+  width: 1500px;
+  height: 700px;
+}
+
+.boxes{
+  width: 15%;
+}
