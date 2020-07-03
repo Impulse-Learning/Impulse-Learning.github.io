@@ -33,14 +33,16 @@ body{
 .row {
   display: flex;
 } */
+
 .column {
   margin-top: 10px;
   float: left;
   width: 33.3%;
-  padding: 10px;
+  padding: 0 8px;
   margin-bottom: 10px;
 
 }
+
 .row::after {
   content: "";
   clear: both;
@@ -51,6 +53,7 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 /* about page */
 .about{
   background: white;
@@ -108,4 +111,17 @@ body{
 
 .about-container button{
   background:gray
+=======
+table{
+  border: 1px;
+  border-color:red;
+  width: 1400px;
+  height: 700px;
+  table-layout: fixed;
+}
+
+td{
+  width: 15%;
+  height: 18%;
+>>>>>>> cbaf51b5b67639e9352e734e854cda8500361223
 }
