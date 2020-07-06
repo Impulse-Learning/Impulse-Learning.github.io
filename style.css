@@ -1,10 +1,8 @@
 *{
-
     box-sizing: border-box;
 }
 
 body{
-
     font-family: Arial;
     padding: 10px;
     background-color:rgb(148, 167, 171);
@@ -32,7 +30,6 @@ body{
     color:white;
     padding:12px;
     display: block;
-
     text-decoration:none;
 }
 
@@ -108,7 +105,7 @@ li.dropdown {
   margin: auto;
   height: 400px;
   text-align:center;
-  
+
 }
 
 .about-head-content{
