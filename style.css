@@ -1,10 +1,19 @@
 *{
-    margin:0;
-    padding:0;
+
+    box-sizing: border-box;
 }
 
 body{
-    background-color:#7FDBFF;
+
+    font-family: Arial;
+    padding: 10px;
+    background-color:rgb(148, 167, 171);
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
 }
 
 .navbar{
@@ -22,6 +31,8 @@ body{
 .navbar a{
     color:white;
     padding:12px;
+    display: block;
+
     text-decoration:none;
 }
 
@@ -37,7 +48,7 @@ body{
 .column {
   margin-top: 10px;
   float: left;
-  width: 33.3%;
+  width: 50%;
   padding: 0 8px;
   margin-bottom: 10px;
 
@@ -51,6 +62,10 @@ body{
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding:20px;
+  margin-top: 20px;
+
 }
 
 /* about page */
@@ -116,4 +131,11 @@ body{
 
 .boxes{
   width: 15%;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
 }
