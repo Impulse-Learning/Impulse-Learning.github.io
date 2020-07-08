@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+body{
+    display:flex;
+    background: rgb(148, 167, 171);
+    align-items: center;
+    justify-content: left;
+    min-height: 100vh
+}
+
+.container{
+    position: relative;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+}
+
+
+
+
+
+.card{
+    position: relative;
+    background: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;   
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    transition:0.5s ease-in-out
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgb(0, 255, 0), 0 6px 20px 0 rgba(0, 255, 0);
+}
+
+.card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background:lime;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out
+}
+.card:hover:before{
+    clip-path: circle(270px at 80% -20%);
+}
+
+.card:after{
+    content: 'Apple';
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    font-size: 7em;
+    font-weight: 900;
+    font-style: italic;
+    color:black;
+    opacity: 0.1;
+}
+
+.imagebx{
+    position: absolute;
+    top:20%;
+    transform: translateY(-20%);
+    left:25%;
+    z-index: 100;
+    transform: rotate(20deg);
+    transition: 0.5s;
+}
+
+.card:hover .imagebx{
+    top: 2%;
+    transform: translateY(0%)
+}
+
+.imagebx img{
+    height: 150px;
+}
+
+.contentbx{
+    position: absolute;
+    bottom: 1%;
+    left: 20%;
+    height: 60px;
+    color: black;
+    align-content: center;
+    justify-content: center;
+    z-index: 50;
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.card:hover .contentbx{
+    height: 160px;
+}
+
+.color, .series, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px, 20px;
+    margin-top: 6px;
+    opacity:0; 
+    transition:0.5s ease-in-out;
+}
+
+.card:hover a, .card:hover .color, .card:hover .series{
+    opacity: 1;
+}
+
+.color h3, .series h3{
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.color span{
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.color span:nth-child(2){
+    background:red;
+}
+
+.color span:nth-child(3){
+    background:green;
+}
+
+.color span:nth-child(4){
+    background:blue;
+} 
+
+.series span{
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+    background:white;
+    border-radius: 2px;
+    font-style: bold;
+}
+
+.series span:hover{
+    background:lime;
+}
+
+a{
+    display:inline-block;
+    background:lightgray;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 8px;
+    font-weight:800;
+    font-style: bold;
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.card2{
+    position: relative;
+    display:grid;
+    grid-template-rows: 40% 40% 20%;
+    grid-template-areas: "image" "content" "info";
+    background:grey;
+    margin: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 370px;
+    overflow: hidden;
+
+    text-align: center;
+    justify-content: center;
+
+    transition: 1s ease-in-out;
+}
+
+.card2:hover{
+    grid-template-rows: 40% 0% 20%;
+}
+
+.card2:after{
+    content: 'Apple';
+    position: absolute;
+    top: 45%;
+    left: -10%;
+    font-size: 7em;
+    font-weight: 900;
+    font-style: italic;
+    color:black;
+    opacity: 0.06;
+}
+
+.card2-imagebx{
+    grid-area:image;
+    padding:0px;
+    margin:0px;
+}
+
+.card2-imagebx img{
+    width:300px;
+}
+
+.card2-content{
+    grid-area: content;
+    padding: 20px 10px 10px 10px;
+}
+
+.card2-content h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card2-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card2-info{
+    grid-area: info;
+    background:lime;
+    height: 100px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "price" "color" "gen";
+    transition: 1s ease-in-out;
+
+    
+}
+
+.card2:hover .card2-info{
+    height: 230px;
+}
