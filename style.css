@@ -5,7 +5,7 @@
 body{
     font-family: Arial;
     padding: 10px;
-    background-color:rgb(148, 167, 171);
+    background-color: rgb(148, 167, 171);
 }
 
 .header {
@@ -24,6 +24,14 @@ body{
 .navbar li{
     float:left;
     margin:10px;
+}
+
+.navbar li:hover{
+  background: rgb(148, 167, 171);
+}
+
+.navbar li:hover a{
+  color:black;
 }
 
 .navbar a{
@@ -91,6 +99,8 @@ li.dropdown {
   margin-top: 20px;
 }
 
+
+
 /* about page */
 .about{
   background:rgb(148, 167, 171);
@@ -132,6 +142,14 @@ li.dropdown {
   border-radius:2px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   text-align: center;
+  transition:height 0.1s ease-in-out;
+}
+
+.about-card:hover{
+  height: 360px;
+  transform:translateX(-5%);
+  width:110%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
 }
 
 .about-card-head{
@@ -139,7 +157,7 @@ li.dropdown {
 }
 
 .about-card-head h3{
-  padding:20%;
+  padding:10%;
   font-weight: 600;
   font-size: 25px;
 }
